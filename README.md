@@ -12,6 +12,24 @@
 
 ## Portfolio projects
 
+### [E-commerce Quality Engineering Framework](https://github.com/Korpaks/toolshop-playwright-quality-engineering)
+
+[![Quality Pipeline](https://github.com/Korpaks/toolshop-playwright-quality-engineering/actions/workflows/quality.yml/badge.svg)](https://github.com/Korpaks/toolshop-playwright-quality-engineering/actions)
+
+A production-style quality framework validating the Toolshop e-commerce system across UI, REST API, accessibility, mobile, and cross-browser layers.
+
+- Risk-based coverage of search, filtering, sorting, product details, cart calculations, checkout gates, and authentication
+- Typed API contracts plus hybrid tests that compare browser behavior with the API source of truth
+- Automated WCAG checks with axe-core and responsive validation using mobile emulation
+- Chromium, Firefox, WebKit, and mobile CI jobs with retained HTML reports and failure evidence
+- Docker execution, scheduled regression runs, safe test isolation, and a documented test strategy
+
+**32 independent tests · TypeScript · Playwright · axe-core · Docker · GitHub Actions**
+
+[Explore the repository](https://github.com/Korpaks/toolshop-playwright-quality-engineering) · [View the successful CI run](https://github.com/Korpaks/toolshop-playwright-quality-engineering/actions/runs/38089190685)
+
+---
+
 ### [TypeScript + Playwright QA Automation](https://github.com/Korpaks/expandtesting-playwright-qa-portfolio)
 
 [![Playwright QA](https://github.com/Korpaks/expandtesting-playwright-qa-portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/Korpaks/expandtesting-playwright-qa-portfolio/actions)
@@ -59,13 +77,13 @@ A Java API automation framework validating meaningful contracts and behavior aga
 
 **Languages:** Java · TypeScript
 
-**UI automation:** Playwright Test · Page Objects · reusable fixtures
+**UI automation:** Playwright Test · Page Objects · reusable fixtures · cross-browser testing
 
 **API automation:** REST Assured · JSON Schema validation · authentication · CRUD
 
-**Test and assertions:** JUnit 5 · AssertJ
+**Test and assertions:** JUnit 5 · AssertJ · axe-core accessibility testing
 
-**Delivery and evidence:** GitHub Actions · Playwright HTML reports · JUnit XML · Allure results · traces
+**Delivery and evidence:** GitHub Actions · Docker · Playwright HTML reports · JUnit XML · Allure results · traces
 
 ## Let’s connect
 
